@@ -1,24 +1,26 @@
+@import "normalize";
+@import "all";
+
 body {
-  background-color: #fbc547;
+  background-color: #fff;
+  background: #355c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#b97f8b, #927c97, #5977a7); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b97f8b, #927c97, #5977a7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+  font-family: Monaco, sans-serif;
   text-align: center;
 }
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
+// a {
+//   color: rgba(#000, 0.7);
+//
+//   &:focus,
+//   &:hover {
+//     color: rgba(#000, 0.6);
+//   }
+// }
+//
+// .middleman-logo {
+//   margin-bottom: 1rem;
+//   width: 10rem;
+// }
