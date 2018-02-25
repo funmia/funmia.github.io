@@ -1,0 +1,71 @@
+.header-title {
+  float: left; }
+
+.header-title-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  display: block;
+  padding: 1em; }
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end; }
+
+.nav-list-link {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: black;
+  font-size: 1em; }
+
+.nav-list a:hover {
+  text-decoration: underline; }
+
+.about-wrapper {
+  margin-top: 150px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  padding: 40px; }
+
+.image-wrapper {
+  display: block;
+  margin: 0;
+  text-align: left;
+  margin-bottom: 10px; }
+
+.img-circle {
+  max-width: 50%;
+  max-height: 20%;
+  border-radius: 50%; }
+
+.about-header {
+  margin-top: 50px; }
+
+.content {
+  text-align: justify; }
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .nav-list {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around; } }
+/* Small screens */
+@media all and (max-width: 500px) {
+  .nav-list {
+    /* On small screens, we are no longer using row direction but column */
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0; }
+
+  .nav-list-link {
+    text-align: center;
+    padding: 10px; } }
