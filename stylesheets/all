@@ -43,9 +43,14 @@
   margin-bottom: 10px; }
 
 .img-circle {
-  max-width: 50%;
+  max-width: 70%;
   max-height: 20%;
-  border-radius: 50%; }
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  background-color: #f2bdf2;
+  background-image: linear-gradient(to right bottom, #f2bdf2 0%, #8cdaed 100%); }
 
 .about-header {
   margin-top: 50px; }
