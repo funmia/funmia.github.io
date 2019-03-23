@@ -78,7 +78,7 @@ $secondary-gradient-color-2: rgba(140,218,237,1);
 }
 
 .content {
-  text-align: justify;
+  text-align: left;
   display: block;
   margin-bottom: 50px;
 }
@@ -88,12 +88,14 @@ p {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #333;
-
-  // color: rgb(83,160,179);
+  font-weight: 600;
 }
 
+a:hover {
+  color: #C06C84;
+}
 // ----- Contact -------
 
 .contact-nav-wrapper {
